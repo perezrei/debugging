@@ -5,7 +5,7 @@ console.log('-- begin --');
 //  false: if the type & value are the same
 //  true: if either the type or value are different
 
-// if two values are the same, !== evaluates to true:
+// if two values are the same, !== evaluates to false:
 console.log('-- false comparisons --');
 
 const isFalse1 = true !== true;
@@ -20,10 +20,10 @@ console.log(typeof isFalse3, isFalse3);
 const isFalse4 = 'Case Sensitive' !== 'cASE sENSITIVE';
 console.log(typeof isFalse4, isFalse4);
 
-// if two values are the same, !== evaluates to true:
+
 console.log('-- true comparisons --');
 
-// if they are not, it evaluates to false
+// if two values are not the same, !== evaluates to true:
 const isTrue1 = true !== false;
 console.log(typeof isTrue1, isTrue1);
 

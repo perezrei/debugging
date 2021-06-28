@@ -8,6 +8,12 @@ let d = 'x';
 let temp;
 
 // write some code, be sure to use temp!
+temp = a;
+a = c;
+c = temp;
+temp = b;
+b = d;
+d = temp;
 
 // fill in the _ to pass the final assertions
 
@@ -23,7 +29,7 @@ console.assert(isTrue3, 'Test 3');
 const isTrue4 = d === 'z';
 console.assert(isTrue4, 'Test 4');
 
-const isTrue5 = temp === _;
+const isTrue5 = temp === 'z';
 console.assert(isTrue5, 'Test 5');
 
 

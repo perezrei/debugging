@@ -7,7 +7,11 @@ let c = 'x';
 let temp;
 
 // write some code, be sure to use temp!
-
+temp = b;
+b = a;
+a = c;
+c = temp;
+temp = 12;
 // fill in the _ to pass the assertions
 
 const isTrue1 = a === 'x';

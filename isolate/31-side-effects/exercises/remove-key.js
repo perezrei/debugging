@@ -5,7 +5,11 @@ console.log('-- begin --');
  * removes a specific key from an object without modifying the original object
  *
  */
-const removeKey = (obj = {}, key = '') => {};
+const removeKey = (obj = {}, key = '') => {
+  const newObject = {...obj}; 
+  delete newObject[key];
+  return newObject;
+};
 
 const obj1 = { a: 1, b: 2 };
 const obj2 = removeKey(obj1, 'a');

@@ -11,7 +11,7 @@ console.log(typeof example, example);
 
 console.log('-- challenge1 --');
 const challenge1 = 'undefined';
-console.log(_, _);
+console.log(string, undefined);
 console.log(typeof challenge1, challenge1);
 
 console.log('-- challenge2 --');

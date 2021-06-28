@@ -67,3 +67,4 @@ if (guessIsCorrect) {
   const unsuccessMessage = 'nope :(';
   alert(unsuccessMessage);
 }
+# pendiente para preguntar

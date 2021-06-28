@@ -25,3 +25,5 @@ if (userName.length > 4) {
 }
 
 console.log('isValidUserName:', typeof isValidUserName, isValidUserName);
+
+# pendiente

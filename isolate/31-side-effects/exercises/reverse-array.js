@@ -5,7 +5,10 @@ console.log('-- begin --');
  * reverses an array without modifying the parameter
  *
  */
-const reverseArray = (arr = [], index = 0) => {};
+const reverseArray = (arr = [], index = 0) => {
+const newArray = [...arr];
+return newArray.reverse();
+};
 
 const arr1 = [1, 2, 3];
 const arr2 = reverseArray(arr1, 'a');
