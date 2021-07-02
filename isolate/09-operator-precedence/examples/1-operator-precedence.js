@@ -9,7 +9,7 @@ console.log('-- begin --');
 
 const expected = 13;
 
-const actual = 3 - 2 + (6 / 2) * 4;
+const actual = 3 - 2 + 6 / 2 * 4;
 console.assert(actual === expected, 'it should be 13');
 
 
