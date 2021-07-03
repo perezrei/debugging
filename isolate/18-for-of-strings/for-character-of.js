@@ -9,12 +9,12 @@ console.log('-- begin --');
 */
 
 const color = 'red';
-const color = 'orange';
-const color = 'yellow';
-const color = 'green';
-const color = 'blue';
-const color = 'indigo';
-const color = 'violet';
+// const color = 'orange';
+// const color = 'yellow';
+// const color = 'green';
+// const color = 'blue';
+// const color = 'indigo';
+// const color = 'violet';
 
 // for...of with `const`
 
