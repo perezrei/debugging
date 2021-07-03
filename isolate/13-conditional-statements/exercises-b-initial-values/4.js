@@ -5,18 +5,18 @@ console.log('-- begin --');
 //  what do all solutions to the same path have in common?
 // or maybe there are unreachable paths!
 
-const value1 = _;
-const value2 = _;
+const value1 = true;
+const value2 = false;
 let path = '';
 
 if (value1 === value2) {
   path = 'if';
 } else if (!value1 === !value2) {
-  path = 'else if 1';
+  path = 'else if 1'; // unreachable path
 } else if (Number(value2) === Number(value1)) {
-  path = 'else if 2';
+  path = 'else if 2'; // unreachable path
 } else if (!(value1 || value2)) {
-  path = 'else if 3';
+  path = 'else if 3'; // unreachable path
 } else {
   path = 'else';
 }
